@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
  
-RUN apt-get update && apt-get install -y wget git curl
+RUN apt-get update && apt-get install -y wget git curl build-essential
 RUN apt-get update && apt-get install -y --no-install-recommends openjdk-7-jdk
 RUN apt-get update && apt-get install -y maven ant ruby rbenv make
 RUN echo "1.554.3" > .lts-version-number
