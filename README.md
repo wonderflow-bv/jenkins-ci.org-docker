@@ -1,3 +1,9 @@
+# Wonderflow Custom Jenkins
+
+As the fork from the official image, but with `build-essential` package installed - to support make command.
+
+
+----------------------
 # Official Jenkins Docker image
 
 The Jenkins Continuous Integration and Delivery server. 
